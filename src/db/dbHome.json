@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Home",
+    "description": "Welcome to our homepage. We offer a range of services to help your business succeed.",
+    "keywords": "business, services, success, homepage",
+    "robots": "index, follow",
+    "ogTitle": "Home",
+    "ogDescription": "Welcome to our homepage. We offer a range of services to help your business succeed.",
+    "ogImage": "URL to the image you want to display when your homepage is shared on social media",
+    "ogUrl": "URL of your homepage"
+  },
+  "contents": {
+    "hero": {
+      "slides": [
+        {
+          "title": "Web Development, Cloud, & AI",
+          "subtitle": "We are masters of this domain",
+          "description": "Boostiology helps you turn your data into a strategic advantage and get outstanding business insights. Boostiology helps you harness the potential of web development, cloud, and AI to optimize your performance.",
+          "images": {},
+          "buttons": [
+            {
+              "label": "Learn More",
+              "href": "#",
+              "title": "Learn more about our services",
+              "target": "_self",
+              "variant": "default",
+              "icon": {
+                "identifier": "ArrowRightIcon",
+                "alt": ""
+              }
+            },
+            {
+              "label": "Contact Us",
+              "href": "#",
+              "title": "Contact us to get started",
+              "target": "_self",
+              "variant": "ghost",
+              "icon": {
+                "identifier": "SendIcon",
+                "alt": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "We Help Organizations To Incredible Growth With Web Services.",
+      "subtitle": "Simply know about boostiology",
+      "description": "AI Integration We incorporate AI capabilities such as natural language generation, image recognition, and deep learning into your web applications to improve their quality and functionality.",
+      "services": [
+        {
+          "id": 1,
+          "icon": {
+            "identifier": "TargetIcon",
+            "alt": "Web Development"
+          },
+          "title": "Web Development",
+          "description": "Develop powerful and dynamic websites.",
+          "link": {
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 2,
+          "icon": {
+            "identifier": "ChartLineIcon",
+            "alt": "Cloud"
+          },
+          "title": "Cloud Computing",
+          "description": "We leverage the cloud to deliver and scale.",
+          "link": {
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "More About Us",
+          "href": "#",
+          "title": "Learn more about our services",
+          "target": "_self",
+          "variant": "secondary",
+          "icon": {
+            "identifier": "ArrowRightIcon",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "offer": {
+      "subtitle": "What We Offer",
+      "title": "We offer a range of services to help your business succeed.",
+      "description": "We offer a range of services to help your business succeed. We offer a range of services to help your business succeed. We offer a range of services to help your business succeed.",
+      "offers": [
+        {
+          "id": 1,
+          "icon": {
+            "identifier": "MonitorIcon",
+            "alt": "Web Development"
+          },
+          "title": "Web Development",
+          "description": "We create stunning and responsive websites that suit your needs and vision.",
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 2,
+          "icon": {
+            "identifier": "CloudIcon",
+            "alt": "Cloud"
+          },
+          "title": "Cloud Computing",
+          "description": "We leverage the cloud to deliver and scale your web applications with efficiency and flexibility.",
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 3,
+          "icon": {
+            "identifier": "BrainIcon",
+            "alt": "AI"
+          },
+          "title": "AI Integration",
+          "description": "We use the most advanced AI tools and frameworks to achieve your goals",
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 4,
+          "icon": {
+            "identifier": "RocketIcon",
+            "alt": "Cloud"
+          },
+          "title": "Deployment",
+          "description": "We deploy and manage your web applications on the cloud with ease and speed. ",
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "label": "More About Us",
+          "href": "#",
+          "title": "Learn more about our services",
+          "target": "_self",
+          "variant": "secondary",
+          "icon": {
+            "identifier": "ArrowRightIcon",
+            "alt": ""
+          }
+        }
+      ]
+    }
+  }
+}
