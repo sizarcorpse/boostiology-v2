@@ -171,6 +171,133 @@
           }
         }
       ]
+    },
+    "project": {
+      "title": "",
+      "subtitle": "",
+      "description": "",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-1.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-2.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 3,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-3.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 4,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-4.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 5,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-1.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 6,
+          "title": "Business Consulting",
+          "cover": {
+            "src": "/assets/images/project/project-3.jpg",
+            "alt": "Business Consulting"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          },
+          "type": {
+            "label": "Web Development",
+            "href": "#",
+            "title": "Learn more about our services",
+            "target": "_self"
+          }
+        }
+      ]
     }
   }
 }
