@@ -1,8 +1,10 @@
 import {
   HomeAbout,
+  HomeBrand,
   HomeHero,
   HomeOffer,
   HomeProject,
+  HomeTeam,
 } from "@/components/page-contents";
 import { dbConfig as config, dbHome as page } from "@/db";
 import { FC } from "react";
@@ -22,14 +24,16 @@ export const metadata = {
 
 const Page: FC = () => {
   const {
-    contents: { hero, about, offer, project },
+    contents: { hero, about, offer, project, brand, team },
   } = page;
   return (
     <main className="bg-slate-50">
       <HomeHero heroData={hero as any} />
+      <HomeBrand brandData={brand as any} />
       <HomeAbout aboutData={about as any} />
       <HomeOffer offerData={offer as any} />
       <HomeProject projectData={project as any} />
+      <HomeTeam teamData={team as any} />
     </main>
   );
 };

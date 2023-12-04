@@ -298,6 +298,185 @@
           }
         }
       ]
+    },
+    "brand": {
+      "title": "",
+      "subtitle": "",
+      "description": "",
+      "brands": [
+        {
+          "id": 1,
+
+          "logo": {
+            "src": "/assets/images/brand/brand-1.svg",
+            "alt": "Brand 1"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 1",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 2,
+          "logo": {
+            "src": "/assets/images/brand/brand-2.svg",
+            "alt": "Brand 2"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 2",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 3,
+          "logo": {
+            "src": "/assets/images/brand/brand-3.svg",
+            "alt": "Brand 3"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 3",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 4,
+          "logo": {
+            "src": "/assets/images/brand/brand-4.svg",
+            "alt": "Brand 4"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 4",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 5,
+          "logo": {
+            "src": "/assets/images/brand/brand-5.svg",
+            "alt": "Brand 5"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 5",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 6,
+          "logo": {
+            "src": "/assets/images/brand/brand-6.svg",
+            "alt": "Brand 6"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 6",
+            "target": "_self"
+          }
+        },
+        {
+          "id": 7,
+          "logo": {
+            "src": "/assets/images/brand/brand-7.svg",
+            "alt": "Brand 7"
+          },
+          "link": {
+            "href": "#",
+            "title": "Brand 7",
+            "target": "_self"
+          }
+        }
+      ]
+    },
+    "team": {
+      "title": "Financial Expertise You Can Trust",
+      "subtitle": "Meet Our Team ",
+      "description": "We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals. We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals. ",
+      "members": [
+        {
+          "id": 1,
+          "name": "Alec Thompson",
+          "title": "CEO & Founder",
+          "avatar": {
+            "src": "/assets/images/team/team-1.png",
+            "alt": "Alec Thompson"
+          },
+          "link": {
+            "href": "#",
+            "title": "Alec Thompson",
+            "target": "_self"
+          },
+          "social": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#",
+            "instagram": "#"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Alec Thompson",
+          "title": "CEO & Founder",
+          "avatar": {
+            "src": "/assets/images/team/team-2.png",
+            "alt": "Alec Thompson"
+          },
+          "link": {
+            "href": "#",
+            "title": "Alec Thompson",
+            "target": "_self"
+          },
+          "social": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#",
+            "instagram": "#"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Alec Thompson",
+          "title": "CEO & Founder",
+          "avatar": {
+            "src": "/assets/images/team/team-3.png",
+            "alt": "Alec Thompson"
+          },
+          "link": {
+            "href": "#",
+            "title": "Alec Thompson",
+            "target": "_self"
+          },
+          "social": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#",
+            "instagram": "#"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Alec Thompson",
+          "title": "CEO & Founder",
+          "avatar": {
+            "src": "/assets/images/team/team-4.png",
+            "alt": "Alec Thompson"
+          },
+          "link": {
+            "href": "#",
+            "title": "Alec Thompson",
+            "target": "_self"
+          },
+          "social": {
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "#",
+            "instagram": "#"
+          }
+        }
+      ]
     }
   }
 }
