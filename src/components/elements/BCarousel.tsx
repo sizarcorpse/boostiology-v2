@@ -4,16 +4,19 @@ import dynamic from "next/dynamic";
 
 interface BCarouselProps {
   contents: any;
-  component: "BProjectCard";
+  component: "BProjectCard" | "BrandLogoCard";
   styles?: {
     size?: "container" | "full";
     gap?: number;
-    align?: "center" | "left" | "right";
+    align?: "center" | "start" | "end";
   };
 }
 
 const dynamicComponents = {
   BProjectCard: dynamic(() => import("@/components/elements/BProjectCard"), {
+    ssr: true,
+  }),
+  BrandLogoCard: dynamic(() => import("@/components/elements/BBrandLogoCard"), {
     ssr: true,
   }),
 };
@@ -58,7 +61,7 @@ const BCarousel: React.FC<BCarouselProps> = ({
               contents.map((data: any, index: any) => (
                 <div
                   style={{ paddingLeft: gap ? `${gap * 4}px` : "0" }}
-                  className={`embla__slide relative mr-lg bg-none bg-transparent overflow-hidden grow-0 shrink-0 basis-full sm:basis-auto`}
+                  className={`embla__slide relative mr-lg bg-none bg-transparent overflow-hidden grow-0 shrink-0 basis-auto`}
                   key={index}
                 >
                   <div className="h-full w-full flex items-center justify-center">
