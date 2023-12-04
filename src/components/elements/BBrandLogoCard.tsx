@@ -5,7 +5,7 @@ const BrandLogoCard = ({ data: brand }: any) => {
     <div className="flex items-center justify-center w-auto h-20 max-w-[160px]">
       <Image
         src={brand?.logo?.src}
-        alt={brand?.alt}
+        alt={brand?.logo?.alt}
         width={140}
         height={80}
         className="object-contain"
