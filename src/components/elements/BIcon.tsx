@@ -11,7 +11,11 @@ export type BIconType =
   | "BrainIcon"
   | "CloudIcon"
   | "MonitorIcon"
-  | "OfferBgIcon";
+  | "OfferBgIcon"
+  | "ShareIcon"
+  | "GitHubIcon"
+  | "TwitterIcon"
+  | "LinkedInIcon";
 
 interface BIconProps {
   icon: BIconType;
