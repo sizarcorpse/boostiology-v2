@@ -27,7 +27,7 @@ const HomeHero: FC<HomeHeroProps> = ({ heroData }) => {
       //   backgroundPosition: "top",
       // }}
     >
-      <BContainer size="full" className="flex items-center">
+      <BContainer className="flex items-center">
         <div className="max-w-[600px] space-y-7">
           <BGroupTitle>
             <BSubtitle size="large">{hero.subtitle}</BSubtitle>

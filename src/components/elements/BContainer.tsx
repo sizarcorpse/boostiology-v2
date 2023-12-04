@@ -16,7 +16,7 @@ const BContainerVariants = cva("container mx-auto h-full", {
       bottom: "px-6 pb-20 md:pb-24 lg:pb-32",
     },
     size: {
-      default: "max-w-screen-xl",
+      default: "xl",
       full: "max-w-full",
       sm: "max-w-screen-sm",
       md: "max-w-screen-md",
