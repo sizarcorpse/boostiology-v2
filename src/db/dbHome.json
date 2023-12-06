@@ -34,13 +34,49 @@
               "href": "#",
               "title": "Contact us to get started",
               "target": "_self",
-              "variant": "ghost",
+              "variant": "link",
               "icon": {
                 "identifier": "SendIcon",
                 "alt": ""
               }
             }
           ]
+        }
+      ]
+    },
+    "why": {
+      "title": "We are the best web services provider for your business needs.",
+      "subtitle": "Why choose us?",
+      "description": "We offer a range of web services that can help you create, deploy, and scale your web applications with ease and efficiency. We use the latest web technologies and best practices to deliver high-quality web solutions that meet your requirements and expectations.",
+      "reasons": [
+        {
+          "icon": "TargetIcon",
+          "text": "Professionals in deployment."
+        },
+        {
+          "icon": "SendIcon",
+          "text": "Partners in your success."
+        },
+        {
+          "icon": "MonitorIcon",
+          "text": "Innovators in web and AI."
+        },
+        {
+          "icon": "ShareIcon",
+          "text": "Specialists in cloud."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Contact us today",
+          "href": "#",
+          "title": "Learn more about our services",
+          "target": "_self",
+          "variant": "secondary",
+          "icon": {
+            "identifier": "ArrowRightIcon",
+            "alt": ""
+          }
         }
       ]
     },
@@ -398,15 +434,15 @@
       "members": [
         {
           "id": 1,
-          "name": "Alec Thompson",
+          "name": "Guillermo Rauch",
           "title": "CEO & Founder",
           "avatar": {
             "src": "/assets/images/team/team-1.png",
-            "alt": "Alec Thompson"
+            "alt": "Guillermo Rauch"
           },
           "link": {
             "href": "#",
-            "title": "Alec Thompson",
+            "title": "Guillermo Rauch",
             "target": "_self"
           },
           "social": {
@@ -418,15 +454,15 @@
         },
         {
           "id": 2,
-          "name": "Alec Thompson",
-          "title": "CEO & Founder",
+          "name": "Luis Rosario",
+          "title": "Senior Software Engineer",
           "avatar": {
             "src": "/assets/images/team/team-2.png",
-            "alt": "Alec Thompson"
+            "alt": "Luis Rosario"
           },
           "link": {
             "href": "#",
-            "title": "Alec Thompson",
+            "title": "Luis Rosario",
             "target": "_self"
           },
           "social": {
@@ -438,15 +474,15 @@
         },
         {
           "id": 3,
-          "name": "Alec Thompson",
-          "title": "CEO & Founder",
+          "name": "Matthew LeRay",
+          "title": "Platform Manager",
           "avatar": {
             "src": "/assets/images/team/team-3.png",
-            "alt": "Alec Thompson"
+            "alt": "Matthew LeRay"
           },
           "link": {
             "href": "#",
-            "title": "Alec Thompson",
+            "title": "Matthew LeRay",
             "target": "_self"
           },
           "social": {
@@ -458,15 +494,15 @@
         },
         {
           "id": 4,
-          "name": "Alec Thompson",
-          "title": "CEO & Founder",
+          "name": "Ray Jacobson",
+          "title": "Engineering Manager",
           "avatar": {
             "src": "/assets/images/team/team-4.png",
-            "alt": "Alec Thompson"
+            "alt": "Ray Jacobson"
           },
           "link": {
             "href": "#",
-            "title": "Alec Thompson",
+            "title": "Ray Jacobson",
             "target": "_self"
           },
           "social": {
@@ -475,6 +511,53 @@
             "linkedin": "#",
             "instagram": "#"
           }
+        }
+      ]
+    },
+    "review": {
+      "title": "Testimonials",
+      "subtitle": "What Our Clients Say",
+      "description": "We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals. We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals. ",
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Guillermo Rauch",
+          "designation": "CEO & Founder",
+          "avatar": {
+            "src": "/assets/images/review/review-1.jpg",
+            "alt": "Guillermo Rauch"
+          },
+          "content": "Never underestimate the powers of good logs and observability. We solve issues way faster because of @boostiology. The quality of their search alone has measurably reduced my stress."
+        },
+        {
+          "id": 2,
+          "author": "Luis Rosario",
+          "designation": "Senior Software Engineer",
+          "avatar": {
+            "src": "/assets/images/review/review-1.jpg",
+            "alt": "Luis Rosario"
+          },
+          "content": "Boostiology is the modern serverless observability tool I always wanted. The strong focus on developer experience is a great match for how we do things at Prisma!          "
+        },
+        {
+          "id": 3,
+          "author": "Matthew LeRay",
+          "designation": "Platform Manager",
+          "avatar": {
+            "src": "/assets/images/review/review-1.jpg",
+            "alt": "Matthew LeRay"
+          },
+          "content": "The dashboard is really good. I can write any queriers on the data I want to see to monitor our site. Boostiology was able to cost-effectively replace DataDog without impacting our operations."
+        },
+        {
+          "id": 4,
+          "author": "Ray Jacobson",
+          "designation": "Engineering Manager",
+          "avatar": {
+            "src": "/assets/images/review/review-1.jpg",
+            "alt": "Ray Jacobson"
+          },
+          "content": "I can hire an engineer off the street, and they immediately know how to get value out of Boostiology. That’s way different from other monitoring."
         }
       ]
     }
