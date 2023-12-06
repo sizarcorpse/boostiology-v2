@@ -23,19 +23,11 @@ const BParagraphVariants = cva("font-inter leading-5", {
       sm: "text-xs md:text-sm",
       xs: "text-xs",
     },
-    color: {
-      default: "text-foreground",
-      dark: "text-primary",
-      light: "text-secondary",
-    },
-  },
-  defaultVariants: {
-    color: "default",
   },
 });
 
 const BParagraph = forwardRef<HTMLParagraphElement, BParagraphProps>(
-  ({ className, size, color, noAnimation, ...props }, ref) => {
+  ({ className, size, noAnimation, ...props }, ref) => {
     const controls = useAnimation();
     const { ref: inViewRef, inView } = useInView();
 
@@ -56,8 +48,9 @@ const BParagraph = forwardRef<HTMLParagraphElement, BParagraphProps>(
 
     return (
       <motion.p
+        {...props}
         ref={combinedRef}
-        className={cn(BParagraphVariants({ size, color, className }))}
+        className={cn(BParagraphVariants({ size, className }))}
         initial={noAnimation ? undefined : "hidden"}
         animate={noAnimation ? undefined : controls}
         variants={
@@ -68,7 +61,6 @@ const BParagraph = forwardRef<HTMLParagraphElement, BParagraphProps>(
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }
         }
-        {...props}
       />
     );
   }

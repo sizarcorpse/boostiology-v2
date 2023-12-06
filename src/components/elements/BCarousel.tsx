@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 interface BCarouselProps {
   contents: any;
-  component: "BProjectCard" | "BrandLogoCard";
+  component: "BProjectCard" | "BrandLogoCard" | "BReviewCard";
   styles?: {
     size?: "container" | "full";
     gap?: number;
@@ -17,6 +17,9 @@ const dynamicComponents = {
     ssr: true,
   }),
   BrandLogoCard: dynamic(() => import("@/components/elements/BBrandLogoCard"), {
+    ssr: true,
+  }),
+  BReviewCard: dynamic(() => import("@/components/elements/BReviewCard"), {
     ssr: true,
   }),
 };

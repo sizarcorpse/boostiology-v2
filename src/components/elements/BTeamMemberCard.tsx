@@ -45,7 +45,7 @@ const BTeamMemberCard = ({ data: member, index }: any) => {
   }, [controls, inView, index, delay]);
   return (
     <motion.div
-      className="w-full h-max rounded-2xl overflow-hidden flex flex-col"
+      className="w-full h-max rounded-2xl overflow-hidden flex flex-col max-w-md"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px",

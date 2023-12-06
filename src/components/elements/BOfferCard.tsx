@@ -25,7 +25,7 @@ const BOfferCard = ({ offer, index }: any) => {
         scale: [
           1, 0.7, 1.2, 0.8, 1.1, 0.9, 1.05, 0.95, 1.02, 0.98, 1.01, 0.99, 1,
         ],
-        y: index % 2 === 0 ? 0 : -30,
+        y: 0,
         opacity: 1,
         transition: {
           type: "spring",
@@ -39,7 +39,9 @@ const BOfferCard = ({ offer, index }: any) => {
   }, [controls, inView, index, delay]);
   return (
     <motion.div
-      className="mx-auto w-full h-full flex flex-col gap-6 border border-border/50 px-7 py-12 rounded-2xl max-w-md"
+      className={`mx-auto w-full h-full flex flex-col gap-6 border border-border/50 px-7 py-12 rounded-2xl max-w-md ${
+        index % 2 === 0 ? "mt-0" : "sm:-mt-9"
+      }`}
       style={{
         boxShadow: "rgba(0, 0, 0, 0.09) 0px 3px 12px",
       }}

@@ -28,14 +28,14 @@ const BIconBox: FC<BIconBoxProps> = ({
       } items-start justify-center gap-4`}
     >
       <div
-        className={`basis-19 aspect-square rounded-lg bg-accent/20 p-4 ${
+        className={`basis-19 aspect-square rounded-lg bg-accent/20 p-4 shrink-0 ${
           computedSize === "md" ? " md:p-4" : " md:p-5"
         }`}
       >
         <BIcon icon={icon} className="w-7 h-7 text-accent md:w-9 md:h-9" />
       </div>
       {(title || description) && (
-        <div className="flex flex-col">
+        <div className="flex flex-col grow">
           {title && (
             <BTitle
               component={component}
