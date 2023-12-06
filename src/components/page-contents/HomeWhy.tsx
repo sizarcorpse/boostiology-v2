@@ -6,6 +6,8 @@ import {
   BIcon,
   BIconBox,
   BIconType,
+  BList,
+  BListItem,
   BParagraph,
   BSection,
   BSubtitle,
@@ -13,33 +15,44 @@ import {
 } from "@/components/elements";
 import { Button } from "../ui/button";
 
-const HomeAbout = ({ aboutData: about }: { aboutData: any }) => {
+const data = [
+  {
+    icon: "TargetIcon",
+    text: "Medicare Advantage Plans",
+  },
+  {
+    icon: "SendIcon",
+    text: "Analysis Research",
+  },
+  {
+    icon: "MonitorIcon",
+    text: "100% Secure Money Back",
+  },
+  {
+    icon: "ShareIcon",
+    text: "100% Money Growth",
+  },
+];
+
+const HomeWhy = ({ whyData: why }: { whyData: any }) => {
   return (
     <BSection margins="exclude">
       <BContainer className="flex flex-row items-start justify-start flex-wrap">
-        <div className="basis-full md:basis-1/2 grow"></div>
-        <div className="basis-full md:basis-1/2 grow flex flex-col items-start gap-7 md:gap-9">
+        <div className="basis-full md:basis-1/2 grow flex flex-col items-start space-y-7 md:space-y-9">
           <BGroupTitle>
-            <BSubtitle size="large">{about?.subtitle}</BSubtitle>
+            <BSubtitle size="large">{why?.subtitle}</BSubtitle>
             <BTitle component="h2" size="lg">
-              {about?.title}
+              {why?.title}
             </BTitle>
           </BGroupTitle>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-1 xl:grid-cols-2">
-            {about?.services?.map((service: any, index: number) => (
-              <BIconBox
-                key={index}
-                icon={service?.icon?.identifier as BIconType}
-                title={service?.title}
-                description={service?.description}
-                orientation="horizontal"
-                component="h4"
-              />
+          <BParagraph>{why?.description}</BParagraph>
+          <BList className="sm:grid-cols-2 md:grid-cols-1 xl:grid-cols-2">
+            {why.reasons?.map((item: any, index: any) => (
+              <BListItem key={index} data={item} />
             ))}
-          </div>
-          <BParagraph>{about?.description}</BParagraph>
+          </BList>
           <div>
-            {about?.buttons?.map((button: any, index: number) => (
+            {why?.buttons?.map((button: any, index: number) => (
               <Button
                 key={index}
                 variant={button?.variant}
@@ -56,9 +69,10 @@ const HomeAbout = ({ aboutData: about }: { aboutData: any }) => {
             ))}
           </div>
         </div>
+        <div className="basis-full md:basis-1/2 grow"></div>
       </BContainer>
     </BSection>
   );
 };
 
-export default HomeAbout;
+export default HomeWhy;

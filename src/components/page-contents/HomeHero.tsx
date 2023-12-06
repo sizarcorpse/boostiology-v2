@@ -28,7 +28,7 @@ const HomeHero: FC<HomeHeroProps> = ({ heroData }) => {
       // }}
     >
       <BContainer className="flex items-center">
-        <div className="max-w-[600px] space-y-7">
+        <div className="max-w-[600px] space-y-7 md:space-y-9">
           <BGroupTitle>
             <BSubtitle size="large">{hero.subtitle}</BSubtitle>
             <BTitle>{hero.title}</BTitle>
@@ -41,7 +41,7 @@ const HomeHero: FC<HomeHeroProps> = ({ heroData }) => {
                   variant={button.variant}
                   size="lg"
                   title={button.title}
-                  className="mt-4 uppercase text-sm leading-4 gap-2"
+                  className="uppercase text-sm leading-4 gap-2"
                 >
                   {button.label}
                   <BIcon
