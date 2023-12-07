@@ -15,7 +15,10 @@ export type BIconType =
   | "ShareIcon"
   | "GitHubIcon"
   | "TwitterIcon"
-  | "LinkedInIcon";
+  | "LinkedInIcon"
+  | "MapPinIcon"
+  | "PhoneCallIcon"
+  | "MailIcon";
 
 interface BIconProps {
   icon: BIconType;
