@@ -560,6 +560,44 @@
           "content": "I can hire an engineer off the street, and they immediately know how to get value out of Boostiology. That’s way different from other monitoring."
         }
       ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get In Touch",
+      "description": "We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals. We are a team of highly skilled and experienced professionals who are passionate about helping our clients achieve their goals.",
+      "info": {
+        "address": {
+          "icon": "MapPinIcon",
+          "title": "Address",
+          "content": "1234 North Main Street New York, NY"
+        },
+        "phone": {
+          "icon": "PhoneCallIcon",
+          "title": "Phone",
+          "content": "+1 (800) 123 4567",
+          "link": {
+            "href": "tel:+18001234567",
+            "title": "Call us",
+            "target": "_self"
+          }
+        },
+        "email": {
+          "icon": "MailIcon",
+          "title": "Email",
+          "content": "info@boostiology.com",
+          "link": {
+            "href": "mailto:info@boostiology.com",
+            "title": "Email us",
+            "target": "_self"
+          }
+        }
+      },
+      "social": {
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "#",
+        "instagram": "#"
+      }
     }
   }
 }

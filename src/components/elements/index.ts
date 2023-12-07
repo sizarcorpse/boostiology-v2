@@ -1,5 +1,6 @@
 export { default as BBrandLogoCard } from "./BBrandLogoCard";
 export { default as BCarousel } from "./BCarousel";
+export { default as BContactForm } from "./BContactForm";
 export { default as BContainer } from "./BContainer";
 export { default as BGroupTitle } from "./BGroupTitle";
 export { default as BIcon } from "./BIcon";
