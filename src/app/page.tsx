@@ -1,6 +1,7 @@
 import {
   HomeAbout,
   HomeBrand,
+  HomeContact,
   HomeHero,
   HomeOffer,
   HomeProject,
@@ -26,7 +27,17 @@ export const metadata = {
 
 const Page: FC = () => {
   const {
-    contents: { hero, about, offer, project, brand, team, review, why },
+    contents: {
+      hero,
+      about,
+      offer,
+      project,
+      brand,
+      team,
+      review,
+      why,
+      contact,
+    },
   } = page;
   return (
     <main className="bg-slate-50">
@@ -38,6 +49,7 @@ const Page: FC = () => {
       <HomeProject projectData={project as any} />
       <HomeTeam teamData={team as any} />
       <HomeReview reviewData={review as any} />
+      <HomeContact contactData={contact as any} />
     </main>
   );
 };
