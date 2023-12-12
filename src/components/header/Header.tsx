@@ -1,18 +1,27 @@
-import { ThemeToggle } from "@/components/settings";
+import { BContainer, BIcon } from "@/components/elements";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur h-16 flex items-center">
-      <div className="container flex items-center justify-between">
-        <div>
-          <p className="text-xl font-bold text-primary uppercase">
-            boostiology
-          </p>
+    <header className="sticky top-0 z-40 w-full border border-border/5 backdrop-blur-xl h-16 flex flex-col items-center justify-center">
+      <BContainer paddings="exclude" className="w-full px-6 h-auto">
+        <div className="w-full flex items-center justify-between">
+          <div>
+            <Link href="/">
+              <p className="text-2xl font-bold text-primary first-letter:font-black first-letter:text-3xl first-letter:uppercase">
+                b
+              </p>
+            </Link>
+          </div>
+          <nav className="flex items-center justify-center">
+            <Button variant="default" className="uppercase gap-2">
+              Get In Touch
+              <BIcon icon="SendIcon" className="w-5 h-5" />
+            </Button>
+          </nav>
         </div>
-        <nav>
-          <ThemeToggle />
-        </nav>
-      </div>
+      </BContainer>
     </header>
   );
 };

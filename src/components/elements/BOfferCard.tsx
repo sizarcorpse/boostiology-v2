@@ -82,8 +82,9 @@ const BOfferCard = ({ offer, index }: any) => {
           {offer.description}
         </BParagraph>
         <Button
-          variant="secondary"
-          className="bg-muted text-primary text-xs mt-2 uppercase tracking-wide font-semibold"
+          variant="muted"
+          size="sm"
+          className="text-xs mt-2 uppercase tracking-wide font-semibold"
         >
           {offer.link.label}
           <BIcon icon="ArrowRightIcon" className="w-4 h-4 ml-2" />
