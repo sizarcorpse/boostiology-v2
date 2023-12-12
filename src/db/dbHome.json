@@ -14,7 +14,7 @@
       "slides": [
         {
           "title": "Web Development, Cloud, & AI",
-          "subtitle": "We are masters of this domain",
+          "subtitle": "Masters of domain",
           "description": "Boostiology helps you turn your data into a strategic advantage and get outstanding business insights. Boostiology helps you harness the potential of web development, cloud, and AI to optimize your performance.",
           "images": {},
           "buttons": [
@@ -26,17 +26,6 @@
               "variant": "default",
               "icon": {
                 "identifier": "ArrowRightIcon",
-                "alt": ""
-              }
-            },
-            {
-              "label": "Contact Us",
-              "href": "#",
-              "title": "Contact us to get started",
-              "target": "_self",
-              "variant": "link",
-              "icon": {
-                "identifier": "SendIcon",
                 "alt": ""
               }
             }
