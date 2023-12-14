@@ -56,6 +56,19 @@ export const shadcnPlugin = plugin(
       body: {
         "@apply bg-background text-foreground": {},
       },
+      "::-webkit-scrollbar": {
+        width: "8px",
+      },
+      "::-webkit-scrollbar-track": {
+        background: "transparent",
+      },
+      "::-webkit-scrollbar-thumb": {
+        background: "#ebf5faff",
+        borderRadius: "16px",
+      },
+      "::-webkit-scrollbar-thumb:hover": {
+        background: "#555",
+      },
     });
   },
   {

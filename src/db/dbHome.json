@@ -129,8 +129,10 @@
             "alt": "Web Development"
           },
           "title": "Web Development",
+          "slug": "web-development",
           "description": "We create stunning and responsive websites that suit your needs and vision.",
           "link": {
+            "slug": "web-development",
             "label": "Learn more",
             "href": "#",
             "title": "Learn more about our services",
@@ -144,8 +146,10 @@
             "alt": "Cloud"
           },
           "title": "Cloud Computing",
+          "slug": "cloud-computing",
           "description": "We leverage the cloud to deliver and scale your web applications with efficiency and flexibility.",
           "link": {
+            "slug": "cloud-computing",
             "label": "Learn more",
             "href": "#",
             "title": "Learn more about our services",
@@ -159,8 +163,10 @@
             "alt": "AI"
           },
           "title": "AI Integration",
+          "slug": "ai-integration",
           "description": "We use the most advanced AI tools and frameworks to achieve your goals",
           "link": {
+            "slug": "ai-integration",
             "label": "Learn more",
             "href": "#",
             "title": "Learn more about our services",
@@ -174,8 +180,10 @@
             "alt": "Cloud"
           },
           "title": "Deployment",
+          "slug": "deployment",
           "description": "We deploy and manage your web applications on the cloud with ease and speed. ",
           "link": {
+            "slug": "deployment",
             "label": "Learn more",
             "href": "#",
             "title": "Learn more about our services",

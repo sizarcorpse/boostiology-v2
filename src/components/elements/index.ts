@@ -7,7 +7,6 @@ export { default as BIcon } from "./BIcon";
 export { default as BIconBox } from "./BIconBox";
 export { default as BList, BListItem } from "./BList";
 export { default as BMemberSocial } from "./BMemberSocial";
-export { default as BModal } from "./BModal";
 export { default as BOfferCard } from "./BOfferCard";
 export { default as BParagraph } from "./BParagraph";
 export { default as BProjectCard } from "./BProjectCard";

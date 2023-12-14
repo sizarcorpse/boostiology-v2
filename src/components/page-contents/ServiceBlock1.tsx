@@ -41,7 +41,7 @@ const ServiceBlock1 = ({ serviceBlock1Data: block }: any) => {
                 quality={100}
                 priority={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover object-center rounded-2xl filter grayscale hover:grayscale-0 z-10"
+                className="object-cover object-center rounded-2xl grayscale contrast-125 brightness-90 hover:grayscale-0 z-10"
               />
             </div>
           </div>
