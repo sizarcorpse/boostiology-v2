@@ -1,11 +1,5 @@
 "use client";
-import {
-  BIcon,
-  BIconBox,
-  BIconType,
-  BParagraph,
-  BTitle,
-} from "@/components/elements";
+import { BIcon, BParagraph, BTitle } from "@/components/elements";
 import { Button } from "@/components/ui/button";
 import { motion, useAnimation } from "framer-motion";
 import { BrainCircuit, Circle, X } from "lucide-react";
@@ -58,7 +52,7 @@ const BOfferCard = ({ offer, index }: any) => {
       <div className="min-h-[100px] flex items-center justify-center relative">
         <div className="z-20">
           <BIcon
-            icon={offer?.icon?.identifier as BIconType}
+            icon={offer?.icon?.identifier}
             className="w-10 h-10 text-accent "
           />
         </div>

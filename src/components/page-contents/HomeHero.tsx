@@ -2,7 +2,6 @@ import {
   BContainer,
   BGroupTitle,
   BIcon,
-  BIconType,
   BParagraph,
   BSection,
   BSubtitle,
@@ -45,7 +44,7 @@ const HomeHero: FC<HomeHeroProps> = ({ heroData }) => {
                 >
                   {button.label}
                   <BIcon
-                    icon={button?.icon?.identifier as BIconType}
+                    icon={button?.icon?.identifier as string}
                     className="w-5 h-5"
                   />
                 </Button>

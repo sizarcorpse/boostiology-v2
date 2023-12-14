@@ -5,7 +5,6 @@ import {
   BGroupTitle,
   BIcon,
   BIconBox,
-  BIconType,
   BOfferCard,
   BParagraph,
   BSection,

@@ -29,7 +29,7 @@ const ServicePage = ({
         serviceDescriptionData={service?.serviceDescription}
       /> */}
       {/* <ServiceBlock1 serviceBlock1Data={service?.serviceBlock1} /> */}
-      <ServiceFeatures serviceFeaturesData={service?.serviceFeature} />
+      {/* <ServiceFeatures serviceFeaturesData={service?.serviceFeature} /> */}
     </main>
   );
 };

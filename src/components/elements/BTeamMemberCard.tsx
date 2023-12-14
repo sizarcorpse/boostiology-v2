@@ -8,8 +8,6 @@ import {
 
 import {
   BIcon,
-  BIconBox,
-  BIconType,
   BMemberSocial,
   BParagraph,
   BTitle,

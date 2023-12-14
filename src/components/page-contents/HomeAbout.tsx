@@ -5,7 +5,6 @@ import {
   BGroupTitle,
   BIcon,
   BIconBox,
-  BIconType,
   BParagraph,
   BSection,
   BSubtitle,
@@ -29,7 +28,7 @@ const HomeAbout = ({ aboutData: about }: { aboutData: any }) => {
             {about?.services?.map((service: any, index: number) => (
               <BIconBox
                 key={index}
-                icon={service?.icon?.identifier as BIconType}
+                icon={service?.icon?.identifier}
                 title={service?.title}
                 description={service?.description}
                 orientation="horizontal"
@@ -48,10 +47,7 @@ const HomeAbout = ({ aboutData: about }: { aboutData: any }) => {
                 className="uppercase text-sm leading-4 gap-2"
               >
                 {button?.label}
-                <BIcon
-                  icon={button?.icon?.identifier as BIconType}
-                  className="w-5 h-5"
-                />
+                <BIcon icon={button?.icon?.identifier} className="w-5 h-5" />
               </Button>
             ))}
           </div>

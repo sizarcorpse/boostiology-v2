@@ -4,8 +4,6 @@ import {
   BContainer,
   BGroupTitle,
   BIcon,
-  BIconBox,
-  BIconType,
   BList,
   BListItem,
   BParagraph,
@@ -61,10 +59,7 @@ const HomeWhy = ({ whyData: why }: { whyData: any }) => {
                 className="uppercase text-sm leading-4 gap-2"
               >
                 {button?.label}
-                <BIcon
-                  icon={button?.icon?.identifier as BIconType}
-                  className="w-5 h-5"
-                />
+                <BIcon icon={button?.icon?.identifier} className="w-5 h-5" />
               </Button>
             ))}
           </div>
