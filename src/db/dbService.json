@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Home",
+    "description": "Welcome to our homepage. We offer a range of services to help your business succeed.",
+    "keywords": "business, services, success, homepage",
+    "robots": "index, follow",
+    "ogTitle": "Home",
+    "ogDescription": "Welcome to our homepage. We offer a range of services to help your business succeed.",
+    "ogImage": "URL to the image you want to display when your homepage is shared on social media",
+    "ogUrl": "URL of your homepage"
+  },
+  "contents": {
+    "services": [
+      {
+        "id": 1,
+        "slug": "web-development",
+        "serviceHero": {
+          "icon": {
+            "name": "MonitorIcon"
+          },
+          "subtitle": "Web Development",
+          "title": "We build websites that are fast, secure and easy to manage.",
+          "description": "We build websites that are fast, secure and easy to manage. We use the latest technologies to ensure your website is future proof and scalable.",
+          "buttons": [
+            {
+              "label": "Get Started",
+              "href": "#",
+              "title": "Learn more about our services",
+              "target": "_self"
+            }
+          ],
+          "cover": {
+            "src": "/assets/images/service/service-1.jpg",
+            "alt": "Image description"
+          }
+        },
+        "serviceDescription": [
+          {
+            "id": 1,
+            "d": "Designing the UX service page for a B2B payroll company, I focused on creating a clean and concise layout to attract individuals in key decision-making roles within businesses. The page I crafted is strategically designed to guide visitors through a seamless journey, addressing concerns, showcasing genuine value propositions, and alleviating fears related to the risk associated with transitioning to a new payroll system."
+          },
+          {
+            "id": 2,
+            "d": "Here's another page load animation for the service page of the agency design i posted recently. The image filling up would show the amount the page is loaded going up to 100% when it's at completely filled."
+          },
+          {
+            "id": 3,
+            "d": "Three lions holding one ring with their teeth. They are fixed by one purpose. These three lions have different meanings and embody luck, wealth and prosperity to its owner."
+          }
+        ],
+        "serviceBlock1": {
+          "subtitle": "Solve Issuers Faster",
+          "title": "Maximize uptime with a speedy response",
+          "lists": [
+            {
+              "id": 1,
+              "text": "Pipe real-time alerts into channels automatically."
+            },
+            {
+              "id": 2,
+              "text": "Create a dedicated channel for each incident."
+            },
+            {
+              "id": 3,
+              "text": "Get the right eyes on the problem immediately."
+            }
+          ],
+          "quote": "We’ve reduced the mean time to resolution to under five minutes. It’s been phenomenally successful in a very short period of time.",
+          "image": {
+            "src": "/assets/images/service/service-2.jpg",
+            "alt": "Image description"
+          }
+        },
+        "serviceFeature": {
+          "subtitle": "Why Choose This Service",
+          "title": "Where your financial dreams become reality",
+          "description": "We are a team of professionals in the field of web development and business promotion. We will help you to create a website that will be profitable for you and your business.",
+          "features": [
+            {
+              "label": "Intrinsic",
+              "value": "intrinsic",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Marketing Plan",
+                  "description": "Two-way API brings separate tools together, opening access for every department and multiplying impact",
+                  "icon": "CloudIcon"
+                },
+                {
+                  "id": 2,
+                  "title": "Target Audience",
+                  "description": "Securely flow info from all your tools into Slack channels, where teams see it—and act on it—faster",
+                  "icon": "CloudIcon"
+                },
+                {
+                  "id": 3,
+                  "title": "Project Management",
+                  "description": "Automate away costs across the organization with customizable bots, workflows and apps",
+                  "icon": "ChartLineIcon"
+                },
+                {
+                  "id": 4,
+                  "title": "Business Development",
+                  "description": "Accelerate work and guide decisions when you open up communication in organization-wide channels",
+                  "icon": "SendIcon"
+                }
+              ]
+            },
+            {
+              "label": "Experimental",
+              "value": "experimental",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Finance Investment",
+                  "description": "Work securely with customers, partners and vendors using Slack Connect",
+                  "icon": "ChartLineIcon"
+                },
+                {
+                  "id": 2,
+                  "title": "Marketing Plan",
+                  "description": "Organizations large and small realize value faster from software and services",
+                  "icon": "BrainIcon"
+                },
+                {
+                  "id": 3,
+                  "title": "Finance Investment",
+                  "description": "Fuel business success with an intuitive UI that fosters deep, sustained engagement",
+                  "icon": "ShareIcon"
+                }
+              ]
+            },
+            {
+              "label": "Future",
+              "value": "future",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Business Analytics",
+                  "description": "Two-way API brings separate tools together, opening access for every department and multiplying impact",
+                  "icon": "CloudIcon"
+                },
+                {
+                  "id": 2,
+                  "title": "Tax Advisory",
+                  "description": "Securely flow info from all your tools into Slack channels, where teams see it—and act on it—faster",
+                  "icon": "CloudIcon"
+                }
+              ]
+            }
+          ]
+        },
+        "serviceBlock2": {
+          "subtitle": "Oversight and Control",
+          "title": "Increase throughput with improved visibility and shared knowledge",
+          "description": "Slack opens up shared knowledge to the people who need it.",
+          "lists": [
+            {
+              "id": 1,
+              "icon": "BrainIcon",
+              "title": "#project-website-standup",
+              "text": "Post weekly team stand-ups in this channel to save time."
+            },
+            {
+              "id": 2,
+              "icon": "ShareIcon",
+              "title": "#announcements-global",
+              "text": "A company-wide channel where everyone can see the latest news."
+            },
+            {
+              "id": 3,
+              "icon": "BrainIcon",
+              "title": "#website-notifications-master",
+              "text": "A channel where you can find out the moment something breaks."
+            }
+          ],
+          "quote": "We’ve reduced the mean time to resolution to under five minutes. It’s been phenomenally successful in a very short period of time.",
+          "image": {
+            "src": "/assets/images/service/service-3.jpg",
+            "alt": "Image description"
+          }
+        },
+        "serviceFaq": {
+          "subtitle": "We're Here to Help",
+          "title": "Frequently Asked Questions",
+          "description": "Have a question? We've got answers. If you don't see your question here, drop us a line on our contact page.",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is the best way to get started?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 2,
+              "question": "Can I use this template for my client?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 3,
+              "question": "How many websites can I build?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 4,
+              "question": "How can I update the template?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 5,
+              "question": "Can I get support for a bug or issue?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 6,
+              "question": "How long does it take to get a response?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            },
+            {
+              "id": 7,
+              "question": "What is the best way to get started?",
+              "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
