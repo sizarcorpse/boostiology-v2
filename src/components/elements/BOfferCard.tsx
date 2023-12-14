@@ -1,5 +1,4 @@
 "use client";
-
 import {
   BIcon,
   BIconBox,
@@ -11,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { motion, useAnimation } from "framer-motion";
 import { BrainCircuit, Circle, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -81,14 +81,16 @@ const BOfferCard = ({ offer, index }: any) => {
         <BParagraph className="line-clamp-3 grow">
           {offer.description}
         </BParagraph>
-        <Button
-          variant="muted"
-          size="sm"
-          className="text-xs mt-2 uppercase tracking-wide font-semibold"
-        >
-          {offer.link.label}
-          <BIcon icon="ArrowRightIcon" className="w-4 h-4 ml-2" />
-        </Button>
+        <Link href={`/services/${offer.slug}`}>
+          <Button
+            variant="muted"
+            size="sm"
+            className="text-xs px-6 uppercase tracking-wide font-semibold"
+          >
+            {offer.link.label}
+            <BIcon icon="ArrowRightIcon" className="w-4 h-4 ml-2" />
+          </Button>
+        </Link>
       </div>
     </motion.div>
   );

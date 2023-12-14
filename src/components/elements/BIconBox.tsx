@@ -1,8 +1,8 @@
-import { BIcon, BIconType, BParagraph, BTitle } from "@/components/elements";
+import { BIcon, BParagraph, BTitle } from "@/components/elements";
 import { cn } from "@/libs/utils";
 import { FC } from "react";
 interface BIconBoxProps {
-  icon: BIconType;
+  icon: string;
   title?: string;
   description?: string;
   orientation?: "vertical" | "horizontal";
