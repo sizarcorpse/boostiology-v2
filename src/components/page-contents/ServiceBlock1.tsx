@@ -9,14 +9,13 @@ import {
   BTitle,
 } from "@/components/elements";
 import Image from "next/image";
-import Link from "next/link";
 
 const ServiceBlock1 = ({ serviceBlock1Data: block }: any) => {
   return (
     <BSection margins="exclude">
       <BContainer>
-        <div className="grid grid-col-1 gap-7  md:grid-cols-2 md:gap-9">
-          <div className="col-span-2 order-2 space-y-7 p-4 md:col-span-1 md:order-1">
+        <div className="grid grid-col-1 gap-7 md:grid-cols-2 md:gap-9">
+          <div className="col-span-2 order-2 space-y-7 p-4 md:col-span-1 md:order-1 md:space-y-9">
             <BGroupTitle>
               <BSubtitle>{block?.subtitle}</BSubtitle>
               <BTitle size="md">{block.title}</BTitle>
