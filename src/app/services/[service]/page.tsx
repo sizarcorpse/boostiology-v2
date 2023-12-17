@@ -1,8 +1,7 @@
-import { useRouter } from "next/navigation";
-
 import {
   ServiceBlock1,
   ServiceBlock2,
+  ServiceCta,
   ServiceDescription,
   ServiceFaq,
   ServiceFeatures,
@@ -23,13 +22,16 @@ const ServicePage = ({
   const service = services.find((item) => item.slug === slug) || null;
 
   return (
-    <main>
-      {/* <ServiceHero serviceHeroData={service?.serviceHero} /> */}
-      {/* <ServiceDescription
+    <main className="px-6 mx-auto max-w-screen-xl">
+      <ServiceHero serviceHeroData={service?.serviceHero} />
+      <ServiceDescription
         serviceDescriptionData={service?.serviceDescription}
-      /> */}
-      {/* <ServiceBlock1 serviceBlock1Data={service?.serviceBlock1} /> */}
-      {/* <ServiceFeatures serviceFeaturesData={service?.serviceFeature} /> */}
+      />
+      <ServiceBlock1 serviceBlock1Data={service?.serviceBlock1} />
+      <ServiceFeatures serviceFeaturesData={service?.serviceFeature} />
+      <ServiceBlock2 serviceBlock2Data={service?.serviceBlock2} />
+      <ServiceFaq serviceFaqData={service?.serviceFaq} />
+      <ServiceCta />
     </main>
   );
 };
