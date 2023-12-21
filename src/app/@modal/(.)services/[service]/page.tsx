@@ -14,6 +14,16 @@ import BDialog from "@/components/elements/BDialog";
 
 import { dbConfig as config, dbService as page } from "@/db";
 
+export async function generateStaticParams() {
+  const {
+    contents: { services },
+  } = page;
+
+  return services.map((service) => ({
+    service: service.slug,
+  }));
+}
+
 export default function PhotoModal({
   params: { service: slug },
 }: {

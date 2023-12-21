@@ -10,6 +10,16 @@ import {
 
 import { dbConfig as config, dbService as page } from "@/db";
 
+export async function generateStaticParams() {
+  const {
+    contents: { services },
+  } = page;
+
+  return services.map((service) => ({
+    service: service.slug,
+  }));
+}
+
 const ServicePage = ({
   params: { service: slug },
 }: {
