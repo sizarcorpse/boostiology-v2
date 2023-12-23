@@ -47,50 +47,64 @@ const SocialLink = ({
   console.log(facebook);
   return (
     <div className="flex items-center space-x-2">
-      <SocialLinkItem
-        href={facebook?.href}
-        icon={facebook?.icon}
-        title={facebook?.title}
-        target={facebook?.target}
-      />
-      <SocialLinkItem
-        href={github?.href}
-        icon={github?.icon}
-        title={github?.title}
-        target={github?.target}
-      />
-      <SocialLinkItem
-        href={instagram?.href}
-        icon={instagram?.icon}
-        title={instagram?.title}
-        target={instagram?.target}
-      />
-      <SocialLinkItem
-        href={linkedin?.href}
-        icon={linkedin?.icon}
-        title={linkedin?.title}
-        target={linkedin?.target}
-      />
-      <SocialLinkItem
-        href={twitter?.href}
-        icon={twitter?.icon}
-        title={twitter?.title}
-        target={twitter?.target}
-      />
+      {facebook && (
+        <SocialLinkItem
+          href={facebook?.href}
+          icon={facebook?.icon}
+          title={facebook?.title}
+          target={facebook?.target}
+        />
+      )}
+      {github && (
+        <SocialLinkItem
+          href={github?.href}
+          icon={github?.icon}
+          title={github?.title}
+          target={github?.target}
+        />
+      )}
+
+      {instagram && (
+        <SocialLinkItem
+          href={instagram?.href}
+          icon={instagram?.icon}
+          title={instagram?.title}
+          target={instagram?.target}
+        />
+      )}
+
+      {linkedin && (
+        <SocialLinkItem
+          href={linkedin?.href}
+          icon={linkedin?.icon}
+          title={linkedin?.title}
+          target={linkedin?.target}
+        />
+      )}
+
+      {twitter && (
+        <SocialLinkItem
+          href={twitter?.href}
+          icon={twitter?.icon}
+          title={twitter?.title}
+          target={twitter?.target}
+        />
+      )}
     </div>
   );
 };
 
 const FooterInfo = ({ info }: { info: any }) => {
-  console.log(info);
   return (
-    <div className="w-full h-full flex flex-col items-start gap-7">
+    <div className="flex flex-col items-start gap-7">
       <Link href="/">
         <p className="text-2xl font-bold text-primary-foreground first-letter:font-bold first-letter:text-4xl first-letter:uppercase">
           B
         </p>
       </Link>
-      <BParagraph>{info.description}</BParagraph>
+      <BParagraph className="whitespace-pre-wrap">
+        {info.description}
+      </BParagraph>
       <SocialLink
         facebook={info.socials.facebook}
         github={info.socials.github}
@@ -179,18 +193,18 @@ const Footer = ({ footerData }: { footerData: any }) => {
   } = footerData;
   return (
     <BSection className="bg-primary" margins="exclude">
-      <BContainer className="">
-        <div className="text-primary-foreground grid grid-cols-12 gap-10">
+      <BContainer>
+        <div className="text-primary-foreground grid grid-cols-12 gap-y-7 gap-x-0 sm:gap-x-12">
           <div className="col-span-12 lg:col-span-4">
             <FooterInfo info={footerInfo} />
           </div>
-          <div className="col-span-12 sm:col-span-4 lg:col-span-3">
+          <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
             <FooterContact contact={footerContact} />
           </div>
-          <div className="col-span-12 sm:col-span-4 lg:col-span-2">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <FooterNav nav={footerNav} />
           </div>
-          <div className="col-span-12 sm:col-span-4 lg:col-span-3">
+          <div className="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-3">
             <FooterPost post={footerPost} />
           </div>
         </div>
