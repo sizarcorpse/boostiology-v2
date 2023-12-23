@@ -1,0 +1,170 @@
+{
+  "contents": {
+    "footerInfo": {
+      "logo": {
+        "src": "#",
+        "alt": "Boostiology Logo"
+      },
+      "description": "Boostiology is a digital marketing agency that helps companies grow their business through digital marketing. We are a team of digital marketing experts that help companies of all sizes grow their business through digital marketing.",
+      "socials": {
+        "facebook": {
+          "href": "#",
+          "title": "Facebook",
+          "icon": "FacebookIcon",
+          "target": "_blank"
+        },
+        "twitter": {
+          "href": "#",
+          "title": "Twitter",
+          "icon": "TwitterIcon",
+          "target": "_blank"
+        },
+        "linkedin": {
+          "href": "#",
+          "title": "Linkedin",
+          "icon": "LinkedInIcon",
+          "target": "_blank"
+        },
+        "instagram": {
+          "href": "#",
+          "title": "Instagram",
+          "icon": "InstagramIcon",
+          "target": "_blank"
+        },
+        "github": {
+          "href": "#",
+          "title": "Github",
+          "icon": "GitHubIcon",
+          "target": "_blank"
+        }
+      }
+    },
+    "footerContact": {
+      "title": "Information",
+      "contacts": [
+        {
+          "id": 1,
+          "title": "Phone",
+          "value": "+1 234 567 89 00",
+          "icon": "PhoneCallIcon",
+          "href": "tel:+12345678900"
+        },
+        {
+          "id": 2,
+          "title": "Email",
+          "value": "info@boostiology.com",
+          "icon": "MailIcon",
+          "href": "mailto:info@boostiology.com"
+        },
+        {
+          "id": 3,
+          "title": "Address",
+          "value": "1234 North Main Street New York, NY",
+          "icon": "MapPinIcon",
+          "href": "https://www.google.com/maps/search/?api=1&query=1234+Street+Name,+City+Name,+United+States",
+          "target": "_blank"
+        }
+      ]
+    },
+    "footerNav": {
+      "title": "Navigation",
+      "links": [
+        {
+          "title": "Company",
+          "label": "Company",
+          "href": "#",
+          "target": null
+        },
+        {
+          "title": "Services",
+          "label": "Services",
+          "href": "#",
+          "target": null
+        },
+        {
+          "title": "Portfolio",
+          "label": "Portfolio",
+          "href": "#",
+          "target": null
+        },
+        {
+          "title": "Blog",
+          "label": "Blog",
+          "href": "#",
+          "target": null
+        },
+        {
+          "title": "Contact",
+          "label": "Contact",
+          "href": "#",
+          "target": null
+        }
+      ]
+    },
+    "footerPost": {
+      "title": "Latest Posts",
+      "posts": [
+        {
+          "id": 1,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-1.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        },
+        {
+          "id": 2,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-2.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        },
+        {
+          "id": 3,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-3.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        },
+        {
+          "id": 4,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-4.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        },
+        {
+          "id": 5,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-5.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        },
+        {
+          "id": 6,
+          "title": "How to create a digital marketing strategy",
+          "href": "#",
+          "target": null,
+          "image": {
+            "src": "/assets/images/footer/footer-6.jpg",
+            "alt": "How to create a digital marketing strategy"
+          }
+        }
+      ]
+    }
+  }
+}
