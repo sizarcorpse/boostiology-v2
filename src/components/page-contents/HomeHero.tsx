@@ -29,12 +29,10 @@ const HomeHero: FC<HomeHeroProps> = ({ heroData }) => {
       <BContainer className="flex items-center">
         <div className="max-w-[600px] space-y-7 md:space-y-9">
           <BGroupTitle>
-            <BSubtitle size="large" noAnimation>
-              {hero.subtitle}
-            </BSubtitle>
-            <BTitle noAnimation>{hero.title}</BTitle>
+            <BSubtitle size="large">{hero.subtitle}</BSubtitle>
+            <BTitle>{hero.title}</BTitle>
           </BGroupTitle>
-          <BParagraph noAnimation>{hero.description}</BParagraph>
+          <BParagraph>{hero.description}</BParagraph>
           <div className="flex flex-col items-start gap-0 sm:flex-row sm:gap-2">
             {hero.buttons.map((button, index) => (
               <Link href={button.href} key={index}>

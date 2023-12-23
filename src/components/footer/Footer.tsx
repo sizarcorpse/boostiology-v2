@@ -44,7 +44,6 @@ const SocialLink = ({
   linkedin?: any;
   twitter?: any;
 }) => {
-  console.log(facebook);
   return (
     <div className="flex items-center space-x-2">
       {facebook && (

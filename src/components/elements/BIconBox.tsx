@@ -8,7 +8,6 @@ interface BIconBoxProps {
   description?: string;
   orientation?: "vertical" | "horizontal";
   component?: "h3" | "h4" | "h5" | "h6";
-  noAnimation?: boolean;
   className?: string;
 }
 
@@ -35,16 +34,11 @@ const BIconBoxVertical = forwardRef<HTMLDivElement, BIconBoxProps>(
                 component={props.component}
                 size="sm"
                 className="font-semibold"
-                {...(props.noAnimation && { noAnimation: true })}
               >
                 {props.title}
               </BTitle>
             )}
-            {props.description && (
-              <BParagraph {...(props.noAnimation && { noAnimation: true })}>
-                {props.description}
-              </BParagraph>
-            )}
+            {props.description && <BParagraph>{props.description}</BParagraph>}
           </div>
         )}
       </div>
@@ -77,16 +71,11 @@ const BIconBoxHorizontal = forwardRef<HTMLDivElement, BIconBoxProps>(
                 component={props.component}
                 size="xs"
                 className="font-semibold"
-                {...(props.noAnimation && { noAnimation: true })}
               >
                 {props.title}
               </BTitle>
             )}
-            {props.description && (
-              <BParagraph {...(props.noAnimation && { noAnimation: true })}>
-                {props.description}
-              </BParagraph>
-            )}
+            {props.description && <BParagraph>{props.description}</BParagraph>}
           </div>
         )}
       </div>

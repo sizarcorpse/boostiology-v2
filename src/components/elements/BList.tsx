@@ -32,7 +32,7 @@ export const BListItem = forwardRef<HTMLLIElement, BListItemProps>(
               <DefaultListIcon className="w-4 h-4 text-accent-foreground stroke-2" />
             )}
           </span>
-          <BParagraph noAnimation className="font-medium" size="lg">
+          <BParagraph className="font-medium" size="lg">
             {text}
           </BParagraph>
         </li>

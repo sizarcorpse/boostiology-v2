@@ -6,7 +6,7 @@ const ServiceDescription = ({ serviceDescriptionData: description }: any) => {
       <BContainer>
         <article className="space-y-6">
           {description?.map((item: any, index: number) => (
-            <BParagraph key={index} noAnimation size="lg">
+            <BParagraph key={index} size="lg">
               {item.d}
             </BParagraph>
           ))}

@@ -82,10 +82,10 @@
 //       </div>
 
 //       <div className="px-6 py-4 flex flex-col">
-//         <BTitle component="h3" size="xs" noAnimation>
+//         <BTitle component="h3" size="xs">
 //           {member.name}
 //         </BTitle>
-//         <BParagraph noAnimation className="text-accent" size="sm">
+//         <BParagraph className="text-accent" size="sm">
 //           {member.title}
 //         </BParagraph>
 //       </div>

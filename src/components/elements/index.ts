@@ -7,6 +7,7 @@ export { default as BGroupTitle } from "./BGroupTitle";
 export { default as BIcon } from "./BIcon";
 export { default as BIconAnimate } from "./BIconAnimate";
 export { default as BIconBox } from "./BIconBox";
+export { default as BLink } from "./BLink";
 export { default as BList, BListItem } from "./BList";
 export { default as BMemberSocial } from "./BMemberSocial";
 export { default as BOfferCard } from "./BOfferCard";

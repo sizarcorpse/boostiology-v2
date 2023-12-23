@@ -25,12 +25,8 @@ const BReviewCard = ({ data: review }: any) => {
           />
         </div>
         <div>
-          <BTitle noAnimation size="sm">
-            {review.author}
-          </BTitle>
-          <BParagraph noAnimation size="default">
-            {review.designation}
-          </BParagraph>
+          <BTitle size="sm">{review.author}</BTitle>
+          <BParagraph size="default">{review.designation}</BParagraph>
         </div>
       </div>
     </div>
