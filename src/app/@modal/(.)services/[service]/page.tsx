@@ -14,6 +14,24 @@ import BDialog from "@/components/elements/BDialog";
 
 import { dbConfig as config, dbService as page } from "@/db";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { service: string };
+}) {
+  const {
+    contents: { services },
+  } = page;
+
+  const service = services.find((item) => item.slug === params.service);
+
+  console.log("service", service);
+  return {
+    title: service?.serviceHero?.subtitle || "",
+    description: service?.serviceHero?.description || "",
+  };
+}
+
 export async function generateStaticParams() {
   const {
     contents: { services },

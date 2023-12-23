@@ -1,5 +1,6 @@
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { dbConfig as config } from "@/db";
+import { dbConfig as config, dbFooter } from "@/db";
 
 import { ThemeProvider } from "@/providers/";
 import "@/styles/globals.css";
@@ -23,6 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
   modal?: React.ReactNode;
 }) {
+  const footerData = dbFooter;
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${outfit.variable}`}>
@@ -33,6 +36,7 @@ export default function RootLayout({
               {children}
               {modal}
             </main>
+            <Footer footerData={footerData} />
           </div>
         </ThemeProvider>
       </body>
