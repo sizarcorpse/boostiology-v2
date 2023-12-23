@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer";
 import { useMedia } from "react-use";
 
 const BOfferCard = ({ offer, index }: any) => {
-  const isMobile = useMedia("(max-width: 768px)", false);
+  const isMobile = useMedia("(max-width: 768px)");
 
   const controls = useAnimation();
   const { ref, inView } = useInView();
