@@ -39,7 +39,6 @@ const ServiceBlock2 = ({ serviceBlock2Data: block }: any) => {
                   title={list.title}
                   description={list.text}
                   orientation="horizontal"
-                  noAnimation
                 />
               </div>
             ))}

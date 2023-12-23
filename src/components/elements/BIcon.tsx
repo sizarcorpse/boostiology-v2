@@ -28,6 +28,8 @@ export const dynamicIcon: DynamicIcon = {
   MapPinIcon: dynamic(() => import("@/components/svg/MapPinIcon")),
   PhoneCallIcon: dynamic(() => import("@/components/svg/PhoneCallIcon")),
   MailIcon: dynamic(() => import("@/components/svg/MailIcon")),
+  FacebookIcon: dynamic(() => import("@/components/svg/FacebookIcon")),
+  InstagramIcon: dynamic(() => import("@/components/svg/InstagramIcon")),
 };
 
 const BIcon: FC<BIconProps> = ({ icon, className }) => {

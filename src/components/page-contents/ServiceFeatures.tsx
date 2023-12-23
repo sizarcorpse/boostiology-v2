@@ -18,7 +18,6 @@ const FeatureCard = ({ feature }: any) => {
         title={feature.title}
         description={feature.description}
         orientation="vertical"
-        noAnimation
       />
     </div>
   );
