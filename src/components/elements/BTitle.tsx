@@ -5,12 +5,11 @@ import React, { forwardRef } from "react";
 interface BTitleProps {
   component?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   size?: "xl" | "lg" | "md" | "sm" | "xs" | "xxs";
-  color?: "light";
   className?: string;
   children?: React.ReactNode;
 }
 
-const BTitleVariants = cva("font-bold font-outfit my-0", {
+const BTitleVariants = cva("font-bold font-outfit my-0 text-primary", {
   variants: {
     size: {
       xl: "text-4xl lg:text-5xl xl:text-6xl",
@@ -20,25 +19,20 @@ const BTitleVariants = cva("font-bold font-outfit my-0", {
       xs: "text-lg lg:text-xl",
       xxs: "text-base lg:text-lg",
     },
-    color: {
-      default: "text-primary",
-      light: "text-secondary",
-    },
   },
   defaultVariants: {
     size: "xl",
-    color: "default",
   },
 });
 
 const BTitle = forwardRef<HTMLHeadingElement, BTitleProps>(
-  ({ className, component = "h2", color, size, ...props }, ref) => {
+  ({ className, component = "h2", size, ...props }, ref) => {
     const Component = component;
 
     return (
       <Component
         ref={ref}
-        className={cn(BTitleVariants({ size, color, className }))}
+        className={cn(BTitleVariants({ size, className }))}
         {...props}
       />
     );

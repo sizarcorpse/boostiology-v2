@@ -118,7 +118,7 @@ const FooterInfo = ({ info }: { info: any }) => {
 const FooterContact = ({ contact }: { contact: any }) => {
   return (
     <div className="space-y-7">
-      <BTitle component="h3" size="xs" color="light">
+      <BTitle component="h3" size="xs" className="text-primary-foreground">
         {contact.title}
       </BTitle>
       <div className="flex flex-col items-start gap-3">
@@ -143,7 +143,7 @@ const FooterContact = ({ contact }: { contact: any }) => {
 const FooterNav = ({ nav }: { nav: any }) => {
   return (
     <div className="space-y-7">
-      <BTitle component="h3" size="xs" color="light">
+      <BTitle component="h3" size="xs" className="text-primary-foreground">
         {nav.title}
       </BTitle>
       <div className="flex flex-col items-start gap-2">
@@ -166,7 +166,7 @@ const FooterNav = ({ nav }: { nav: any }) => {
 const FooterPost = ({ post }: { post: any }) => {
   return (
     <div className="w-full h-full flex flex-col items-start gap-7">
-      <BTitle component="h3" size="xs" color="light">
+      <BTitle component="h3" size="xs" className="text-primary-foreground">
         {post.title}
       </BTitle>
       <div className="grid grid-cols-3 gap-2">

@@ -17,7 +17,11 @@ const BProjectCard = ({ data: project }: any) => {
         <div className="l"></div>
         <div className="absolute top-0 left-0 z-20 w-full h-full flex flex-row items-end justify-between gap-2 p-6 bg-gradient-to-t from-[rgba(0,1,38,0.9)] to bg-transparent lg:p-8">
           <div>
-            <BTitle component="h4" size="md" color="light">
+            <BTitle
+              component="h4"
+              size="md"
+              className="text-primary-foreground"
+            >
               {project.title}
             </BTitle>
             <BParagraph className="text-accent font-medium">

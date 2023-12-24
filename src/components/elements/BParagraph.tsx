@@ -4,12 +4,11 @@ import React, { forwardRef } from "react";
 
 interface BParagraphProps {
   size?: "default" | "xl" | "lg" | "sm" | "xs";
-  color?: "light" | "dark";
   className?: string;
   children?: React.ReactNode;
 }
 
-const BParagraphVariants = cva("font-inter leading-5", {
+const BParagraphVariants = cva("font-inter leading-5 text-primary", {
   variants: {
     size: {
       default: "text-sm md:text-base",

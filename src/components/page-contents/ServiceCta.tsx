@@ -5,7 +5,7 @@ const ServiceCta = () => {
   return (
     <BSection margins="exclude">
       <BContainer className="bg-primary space-y-7 md:space-y-9">
-        <BTitle size="xl" color="light" className="text-center">
+        <BTitle size="xl" className="text-center text-primary-foreground">
           Choose a better way to work
         </BTitle>
         <div className="flex justify-center gap-4">

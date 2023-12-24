@@ -21,7 +21,7 @@ const ServiceHero = ({ serviceHeroData: hero }: any) => {
                 <BIcon icon={hero?.icon?.name} />
                 {hero?.subtitle}
               </BSubtitle>
-              <BTitle size="lg" color="light">
+              <BTitle size="lg" className="text-primary-foreground">
                 {hero?.title}
               </BTitle>
             </BGroupTitle>
