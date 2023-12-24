@@ -53,12 +53,16 @@ const BOfferCard = ({ offer, index }: any) => {
           : { y: 50, opacity: 0 }
       }
       animate={controls}
-      whileHover={{
-        scale: 1.05,
-        transition: {
-          duration: 0.2,
-        },
-      }}
+      whileHover={
+        !isMobile
+          ? {
+              scale: 1.05,
+              transition: {
+                duration: 0.25,
+              },
+            }
+          : {}
+      }
     >
       <div className="min-h-[100px] flex items-center justify-center relative">
         <div className="z-20">
