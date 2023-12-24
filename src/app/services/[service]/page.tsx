@@ -7,8 +7,32 @@ import {
   ServiceFeatures,
   ServiceHero,
 } from "@/components/page-contents";
-
 import { dbConfig as config, dbService as page } from "@/db";
+import type { NextPage } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { service: string };
+}) {
+  const {
+    contents: { services },
+  } = page;
+  const service = services.find((item) => item.slug === params.service);
+
+  return {
+    title: config.meta.company + " - " + service?.serviceHero?.subtitle,
+    description: service?.serviceHero?.description,
+    keywords: page.meta.keywords,
+    author: config.meta.author,
+    company: config.meta.company,
+    robots: page.meta.robots,
+    ogTitle: config.meta.company + " - " + page.meta.ogTitle,
+    ogDescription: page.meta.ogDescription,
+    ogImage: page.meta.ogImage,
+    ogUrl: page.meta.ogUrl,
+  };
+}
 
 export async function generateStaticParams() {
   const {
@@ -20,15 +44,15 @@ export async function generateStaticParams() {
   }));
 }
 
-const ServicePage = ({
-  params: { service: slug },
-}: {
+interface ServicePageProps {
   params: { service: string };
-}) => {
+}
+
+const ServicePage: NextPage<ServicePageProps> = ({ params }) => {
   const {
     contents: { services },
   } = page;
-
+  const { service: slug } = params;
   const service = services.find((item) => item.slug === slug) || null;
 
   return (
