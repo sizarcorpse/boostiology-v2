@@ -442,11 +442,37 @@
             "title": "Guillermo Rauch",
             "target": "_self"
           },
-          "social": {
-            "facebook": "#",
-            "twitter": "#",
-            "linkedin": "#",
-            "instagram": "#"
+          "socials": {
+            "facebook": {
+              "href": "#",
+              "title": "Facebook",
+              "icon": "FacebookIcon",
+              "target": "_blank"
+            },
+            "twitter": {
+              "href": "#",
+              "title": "Twitter",
+              "icon": "TwitterIcon",
+              "target": "_blank"
+            },
+            "linkedin": {
+              "href": "#",
+              "title": "Linkedin",
+              "icon": "LinkedInIcon",
+              "target": "_blank"
+            },
+            "instagram": {
+              "href": "#",
+              "title": "Instagram",
+              "icon": "InstagramIcon",
+              "target": "_blank"
+            },
+            "github": {
+              "href": "#",
+              "title": "Github",
+              "icon": "GitHubIcon",
+              "target": "_blank"
+            }
           }
         },
         {
@@ -462,11 +488,37 @@
             "title": "Luis Rosario",
             "target": "_self"
           },
-          "social": {
-            "facebook": "#",
-            "twitter": "#",
-            "linkedin": "#",
-            "instagram": "#"
+          "socials": {
+            "facebook": {
+              "href": "#",
+              "title": "Facebook",
+              "icon": "FacebookIcon",
+              "target": "_blank"
+            },
+            "twitter": {
+              "href": "#",
+              "title": "Twitter",
+              "icon": "TwitterIcon",
+              "target": "_blank"
+            },
+            "linkedin": {
+              "href": "#",
+              "title": "Linkedin",
+              "icon": "LinkedInIcon",
+              "target": "_blank"
+            },
+            "instagram": {
+              "href": "#",
+              "title": "Instagram",
+              "icon": "InstagramIcon",
+              "target": "_blank"
+            },
+            "github": {
+              "href": "#",
+              "title": "Github",
+              "icon": "GitHubIcon",
+              "target": "_blank"
+            }
           }
         },
         {
@@ -482,11 +534,37 @@
             "title": "Matthew LeRay",
             "target": "_self"
           },
-          "social": {
-            "facebook": "#",
-            "twitter": "#",
-            "linkedin": "#",
-            "instagram": "#"
+          "socials": {
+            "facebook": {
+              "href": "#",
+              "title": "Facebook",
+              "icon": "FacebookIcon",
+              "target": "_blank"
+            },
+            "twitter": {
+              "href": "#",
+              "title": "Twitter",
+              "icon": "TwitterIcon",
+              "target": "_blank"
+            },
+            "linkedin": {
+              "href": "#",
+              "title": "Linkedin",
+              "icon": "LinkedInIcon",
+              "target": "_blank"
+            },
+            "instagram": {
+              "href": "#",
+              "title": "Instagram",
+              "icon": "InstagramIcon",
+              "target": "_blank"
+            },
+            "github": {
+              "href": "#",
+              "title": "Github",
+              "icon": "GitHubIcon",
+              "target": "_blank"
+            }
           }
         },
         {
@@ -502,11 +580,37 @@
             "title": "Ray Jacobson",
             "target": "_self"
           },
-          "social": {
-            "facebook": "#",
-            "twitter": "#",
-            "linkedin": "#",
-            "instagram": "#"
+          "socials": {
+            "facebook": {
+              "href": "#",
+              "title": "Facebook",
+              "icon": "FacebookIcon",
+              "target": "_blank"
+            },
+            "twitter": {
+              "href": "#",
+              "title": "Twitter",
+              "icon": "TwitterIcon",
+              "target": "_blank"
+            },
+            "linkedin": {
+              "href": "#",
+              "title": "Linkedin",
+              "icon": "LinkedInIcon",
+              "target": "_blank"
+            },
+            "instagram": {
+              "href": "#",
+              "title": "Instagram",
+              "icon": "InstagramIcon",
+              "target": "_blank"
+            },
+            "github": {
+              "href": "#",
+              "title": "Github",
+              "icon": "GitHubIcon",
+              "target": "_blank"
+            }
           }
         }
       ]
