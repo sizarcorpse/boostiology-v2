@@ -88,8 +88,14 @@ const BTeamMemberCard = ({ data: member, index }: any) => {
               <BIcon icon="ShareIcon" className="w-5 h-5" />
             </Button>
           </PopoverTrigger>
-          <PopoverContent>
-            <BMemberSocial />
+          <PopoverContent className="border-none" align="end">
+            <BMemberSocial
+              facebook={member?.socials?.facebook}
+              github={member?.socials?.github}
+              instagram={member?.socials?.instagram}
+              linkedin={member?.socials?.linkedin}
+              twitter={member?.socials?.twitter}
+            />
           </PopoverContent>
         </Popover>
       </div>

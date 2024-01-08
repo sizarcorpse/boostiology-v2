@@ -1,8 +1,9 @@
 import { BIcon, BParagraph, BTitle } from "@/components/elements";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/libs/utils";
 import Image from "next/image";
 
-const BProjectCard = ({ data: project }: any) => {
+const BProjectCard = ({ data: project, currentItem: current }: any) => {
   return (
     <div className="group cursor-pointer w-full max-w-md sm:max-w-md md:max-w-lg">
       <div className="relative">
@@ -12,7 +13,10 @@ const BProjectCard = ({ data: project }: any) => {
           width={952}
           height={1140}
           quality={100}
-          className="aspect-[952/1140] object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
+          className={cn(
+            `aspect-[952/1140] object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500`,
+            current && "grayscale-0"
+          )}
         />
         <div className="l"></div>
         <div className="absolute top-0 left-0 z-20 w-full h-full flex flex-row items-end justify-between gap-2 p-6 bg-gradient-to-t from-[rgba(0,1,38,0.9)] to bg-transparent lg:p-8">

@@ -1,7 +1,7 @@
 "use client";
+import { useEmblaCurrent } from "@/hooks";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import dynamic from "next/dynamic";
-
 interface BCarouselProps {
   contents: any;
   component: "BProjectCard" | "BrandLogoCard" | "BReviewCard";
@@ -38,6 +38,8 @@ const BCarousel: React.FC<BCarouselProps> = ({
     inViewThreshold: 0.1,
   });
 
+  const current = useEmblaCurrent(emblaApi);
+
   const Element =
     dynamicComponents[component as keyof typeof dynamicComponents];
 
@@ -68,7 +70,7 @@ const BCarousel: React.FC<BCarouselProps> = ({
                   key={index}
                 >
                   <div className="h-full w-full flex items-center justify-center">
-                    <Element data={data} />
+                    <Element data={data} currentItem={current === index + 1} />
                   </div>
                 </div>
               ))}

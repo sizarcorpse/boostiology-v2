@@ -44,7 +44,7 @@ const ServiceFeatures = ({ serviceFeaturesData: feature }: any) => {
                   <TabsTrigger
                     key={index}
                     value={item?.value}
-                    className="h-10 px-6 text-base"
+                    className="h-10 px-2 text-base sm:px-3 md:px-6"
                   >
                     {item?.label}
                   </TabsTrigger>
