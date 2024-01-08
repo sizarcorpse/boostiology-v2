@@ -101,7 +101,7 @@ const FooterInfo = ({ info }: { info: any }) => {
           B
         </p>
       </Link>
-      <BParagraph className="whitespace-pre-wrap">
+      <BParagraph className="whitespace-pre-wrap text-primary-foreground">
         {info.description}
       </BParagraph>
       <SocialLink
